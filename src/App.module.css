@@ -1,0 +1,213 @@
+.App {
+  margin: 10px 20px;
+}
+.title {
+  text-align: center;
+}
+nav {
+  padding: 1em;
+  background: #6bc2ff;
+}
+nav .nav_link {
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+.sub_title {
+  text-align: center;
+  color: #1daaca;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em 0;
+  justify-content: space-between;
+}
+.form_input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f0fcff;
+}
+form .input_box {
+  margin-bottom: 15px;
+  width: calc(100% / 2);
+}
+.input_box_full {
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 3em;
+}
+label.input_title {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+textarea {
+  resize: none;
+  width: 99%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 4px;
+  transition: all 0.3s ease;
+}
+.input_box_full > select {
+  width: 103%;
+  padding-left: 10px;
+}
+form .input_box > input,
+form .input_box_full > input {
+  width: 100%;
+  padding-left: 15px;
+}
+form .input_box > input,
+form .input_box_full > input,
+.input_box_full > select {
+  height: 45px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-bottom-width: 4px;
+  transition: all 0.3s ease;
+}
+.radio_input {
+  padding: 15px 0;
+  font-size: 18px;
+}
+form .input_box .details {
+  display: block;
+  padding: 15px 0;
+  font-size: 18px;
+}
+.info {
+  color: red;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.button input {
+  padding: 10px;
+  width: 25%;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-image: linear-gradient(60deg, #56b8c9 0%, #88d9ed 100%);
+}
+form button {
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form button.button_add {
+  background-image: linear-gradient(60deg, #29d70a 0%, #37b521 100%);
+}
+form button.button_delete {
+  margin: 0 auto;
+  background-image: linear-gradient(60deg, #ff3030 0%, #dc0000 100%);
+}
+.table {
+  width: 100%;
+  margin: 0 auto;
+}
+.table_s {
+  width: 25%;
+  margin: 0 auto;
+}
+.table_s td {
+  width: 50%;
+  height: 3em;
+  text-align: center;
+}
+.table td {
+  width: 15%;
+  text-align: center;
+}
+td form .input_box_full {
+  width: 80%;
+}
+.list > div {
+  display: flex;
+  align-items: center;
+  background: #f0fcff;
+  margin: 10px 0;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+.link {
+  text-decoration: none;
+  margin: 10px;
+  padding: 0.5em;
+  background: #1c84d7;
+  color: #fff;
+}
+nav .nav_link:hover {
+  font-weight: bold;
+  background: #2196f3;
+}
+nav .nav_link:active {
+  background: #1c84d7;
+}
+form .input_box input:hover,
+form textarea:hover,
+select:hover {
+  border-color: hsl(0, 0%, 70%);
+}
+form .input_box input:focus,
+form textarea:focus,
+select:focus {
+  border-color: #2684ff;
+}
+form button.button_add:hover {
+  transform: scale(0.98);
+  background-image: linear-gradient(120deg, #29d70a 0%, #37b521 100%);
+}
+form button.button_delete:hover {
+  transform: scale(0.98);
+  background-image: linear-gradient(120deg, #ff3030 0%, #dc0000 100%);
+}
+.button input:hover {
+  transform: scale(0.99);
+  background-image: linear-gradient(120deg, #56b8c9 0%, #88d9ed 100%);
+}
+form select:required:invalid {
+  color: #666;
+}
+form select:required:invalid option {
+  color: #000;
+}
+/* Media */
+@media (max-width: 584px) {
+  form .input_box_full {
+    padding-right: 1em;
+  }
+  form .input_box {
+    width: 100%;
+  }
+  textarea {
+    width: 95%;
+  }
+  form .input_box_full > select {
+    width: 105%;
+  }
+}

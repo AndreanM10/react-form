@@ -1,0 +1,38 @@
+[
+  {
+    "userID": "1",
+    "name": "小明",
+    "jobTitle": "主任",
+    "departmentName": "電子計算機中心",
+    "arrivalDate": "2017/02/28",
+    "mCategory": "生產管理",
+    "Balance": 100000
+  },
+  {
+    "userID": "2",
+    "name": "小黃",
+    "jobTitle": "部長",
+    "departmentName": "學務處",
+    "arrivalDate": "2015/04/23",
+    "mCategory": "經營管理",
+    "Balance": 80000
+  },
+  {
+    "userID": "3",
+    "name": "小王",
+    "jobTitle": "會長",
+    "departmentName": "教務處",
+    "arrivalDate": "2012/05/18",
+    "mCategory": "財務管理",
+    "Balance": 90000
+  },
+  {
+    "userID": "4",
+    "name": "小李",
+    "jobTitle": "助理",
+    "departmentName": "教務處",
+    "arrivalDate": "2021/11/25",
+    "mCategory": "財務管理",
+    "Balance": 70000
+  }
+]
